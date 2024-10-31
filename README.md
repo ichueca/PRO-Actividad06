@@ -7,9 +7,9 @@ Se pide diseñar una clase `Email` para gestionar los envíos de correo electró
 
 De cada correo se almacenará la siguiente información:
 
-* `para` : Una cadena para almacenar el correo electrónico de la persona a la que se envía el correo
-* `asunto` : Ídem para el tema del que trata el mensaje
-* `texto` : El texto del correo propiamente dicho
+*`para` : Una cadena para almacenar el correo electrónico de la persona a la que se envía el correo
+*`asunto` : Ídem para el tema del que trata el mensaje
+*`texto` : El texto del correo propiamente dicho
  
 
 Dichas propiedades **deberán ser accesibles desde cualquier clase que esté en el mismo paquete**.
@@ -26,16 +26,16 @@ Diseñar, además, **una clase ejecutable** llamada `EnvioCorreos` que realizar�
   2.1 **Asignar** a `email` un nuevo `Email` (`email = new Email();`). 
   2.2 **Pedir** el `destinatario`, `asunto` y `texto` del mensaje y **asignarlo a las propiedades** correspondientes del objeto `email`
   2.3 **Incrementar** la propiedad `numCorreos` de la clase `Email` en `1`
-  2.4 **Mostrar** la información del email según el siguiente formato (los valores en cursiva deben sustituirse por las propiedades correspondientes)
+  2.4 **Mostrar** la información del email según el siguiente formato (los valores entre corchetes deben sustituirse por las propiedades correspondientes)
 
 ``` console
-Mensaje : *numCorreos*
+Mensaje : [numCorreos]
 
-De : *de*
+De : [de]
 
-Para : *para*
+Para : [para]
 
-Asunto : *asunto*
+Asunto : [asunto]
 
 Texto
 
