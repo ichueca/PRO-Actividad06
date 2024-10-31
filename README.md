@@ -21,21 +21,21 @@ Asimismo se dispondrá de otra **propiedad de clase** llamada `numCorreos` de ti
 
 Diseñar, además, **una clase ejecutable** llamada `EnvioCorreos` que realizará las siguientes tareas en su método `main`:
 
-1. Declarará una variable emailde tipo Email (Email email;)
-2. Repetirá el siguiente proceso mientras el usuario quiera
-  2.1 Asignar a email un nuevo Email (email = new Email();). 
-  2.2 Pedir el destinatario, asunto y texto del mensaje y asignarlo a las propiedades correspondientes del objeto email
-  2.3 Incrementar la propiedad numCorreos de la clase Email en 1
-  2.4 Mostrar la información del email según el siguiente formato (los valores en cursiva deben sustituirse por las propiedades correspondientes)
+1. Declarará una variable `email` de tipo `Email` (`Email email;`)
+2. Repetirá el siguiente proceso **mientras el usuario quiera**
+  2.1 **Asignar** a `email` un nuevo `Email` (`email = new Email();`). 
+  2.2 **Pedir** el `destinatario`, `asunto` y `texto` del mensaje y **asignarlo a las propiedades** correspondientes del objeto `email`
+  2.3 **Incrementar** la propiedad `numCorreos` de la clase `Email` en `1`
+  2.4 **Mostrar** la información del email según el siguiente formato (los valores en cursiva deben sustituirse por las propiedades correspondientes)
 
 ``` console
-Mensaje : numCorreos
+Mensaje : *numCorreos*
 
-De : de
+De : *de*
 
-Para : para
+Para : *para*
 
-Asunto : asunto
+Asunto : *asunto*
 
 Texto
 
